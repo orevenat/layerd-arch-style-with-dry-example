@@ -22,6 +22,8 @@ class Container < Dry::System::Container
 
       dir.namespaces.add 'matcher', key: 'contexts.matcher'
       dir.namespaces.add 'shop', key: 'contexts.shop'
+      dir.namespaces.add 'cat_toy_testing', key: 'contexts.cat_toy_testing'
+      dir.namespaces.add 'testers_accounting', key: 'contexts.testers_accounting'
     end
 
     # simple transport

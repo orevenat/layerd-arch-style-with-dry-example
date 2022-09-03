@@ -14,3 +14,11 @@ puts
 puts '*' * 40
 puts
 Container['in_memory.transport.shop_request'].call
+puts
+puts '*' * 40
+puts
+Container['in_memory.transport.cat_toy_testing_request'].call
+puts
+puts '*' * 40
+puts
+Container['in_memory.transport.testers_accounting_request'].call
